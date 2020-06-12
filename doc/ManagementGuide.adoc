@@ -5,6 +5,8 @@ Welcome to *KIWI management guide*! This documentation explains how to update an
 
 Feel free to approach the developer for any feedback or questions!
 
+KIWI website: http://ec2-52-221-253-86.ap-southeast-1.compute.amazonaws.com:8080/
+
 .KIWI Home Page
 image::./images/home_page.png[KIWI Home Page, 800]
 
