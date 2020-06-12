@@ -20,7 +20,7 @@ Feel free to approach the developer for any feedback or questions!
 
 **Site Map**
 
-* [Developer Guide](https://github.com/KE-Web/KIWI-website/blob/master/doc/DeveloperGuide.adoc
+* [Developer Guide](https://github.com/KE-Web/KIWI-website/blob/master/doc/DeveloperGuide.adoc)
 * [User Guide](hhttps://github.com/KE-Web/KIWI-website/blob/master/doc/UserGuide.adoc)
 * [Management Guide](https://github.com/KE-Web/KIWI-website/blob/master/doc/ManagementGuide.adoc)
 * [About Us](https://github.com/KE-Web/KIWI-website/blob/master/doc/AboutUs.adoc)
