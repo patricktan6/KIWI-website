@@ -19,11 +19,38 @@ html(lang='en')
     // CONTENT
     section.ftco-section.bg-light
       .container
-        .row.justify-content-center.mb-3.pb-3
-          .col-md-12.heading-section.text-center.ftco-animate
-            h2.mb-4 Bookings Submission
-            p
-              | Work In Progress (Dummy Content Below)
+        h4 Pending list for approval
+        .row.justify-content-center.mb-3.pb-3(style='margin-top: 0px;')
+          table.table
+            tr
+              th Name
+              th Room
+              th Zone
+              th Pax
+              th CCA
+              th Purpose
+              th Position
+              th Venue
+              th Date
+              th Staring from
+              th Ending at
+              th 
+            tbody
+              each row in rows_booking_submission
+                tr
+                  td #{row.name}
+                  td #{row.room}
+                  td #{row.zone}
+                  td #{row.pax}
+                  td #{row.cca}
+                  td #{row.purpose}
+                  td #{row.position}
+                  td #{row.venue}
+                  td #{row.date}
+                  td #{row.starttime}
+                  td #{row.endtime}
+                  td button //(type='submit',onclick='edit("#{row.id}")') approve
+          // END pending-list
       .container
         .row
           each row_eventposter in rows_eventposter
